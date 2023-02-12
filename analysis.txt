@@ -1,0 +1,97 @@
+1. Definie: insert()
+
+n = insert a node in list
+
+T(n) = represent number of operations needed to insert a node in list
+
+2. Count:
+
+comment
+
+3. Determine
+	
+T(n) = O(1) + O(1) + O(1) + O(N) + O(1) 
+
+4. Simplify:
+
+T(n) = O(1) + O(N) 
+
+5. Result:
+
+T(n) = O(N) 
+
+
+===========================================================================
+
+1. Definie: is_present()
+
+n = check a node in list or not
+
+T(n) = represent number of operations needed to check a node in list or not
+
+2. Count:
+
+comment
+
+3. Determine
+	
+T(n) = O(1) + O(1) + O(1) + O(N) 
+
+4. Simplify:
+
+T(n) = O(1) + O(N) 
+
+5. Result:
+
+T(n) = O(N) 
+
+
+===========================================================================
+1. Definie: remove()
+
+n = remove a node from list
+
+T(n) = represent number of operations needed to remove a node from list
+
+2. Count:
+
+comment
+
+3. Determine
+	
+T(n) = O(N) + O(1) + O(1) + O(1) + O(N) + O(1) 
+
+4. Simplify:
+
+T(n) = O(N)+O(1) + O(N) 
+
+5. Result:
+
+T(n) = O(N) 
+
+
+===========================================================================
+1. Definie: __len__()
+
+n = length of list nodes
+
+T(n) = represent number of operations needed to count the size of list nodes
+
+2. Count:
+
+comment
+
+3. Determine
+	
+T(n) = O(1) + O(1) + O(N) + O(1) 
+
+4. Simplify:
+
+T(n) = O(1) + O(N) + O(1)
+
+5. Result:
+
+T(n) = O(N) 
+
+
+===========================================================================
